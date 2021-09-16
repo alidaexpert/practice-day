@@ -1,0 +1,199 @@
+:root {
+    --heading-color: #1E2134;
+    --body-color: #0E0E0E;
+    --review-color: #1F2235;
+    --card-color: #22273B;
+    --railway: 'Raleway', sans-serif;
+    --roboto: 'Roboto', sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: var(--railway);
+    color: aliceblue;
+}
+
+.head-color {
+    background-color: #1a1d31;
+    color: aliceblue;
+}
+
+.nav-color {
+    background-color: var(--heading-color);
+}
+
+.ul-hover li {
+    position: relative;
+}
+
+.ul-hover li a {
+    text-decoration: none;
+    color: aliceblue;
+    transition: .5s;
+}
+
+.last-child {
+    color: rgb(255, 197, 89);
+    border: 1px solid rgb(255, 197, 89);
+    padding: 8px 20px;
+    border-radius: 2px;
+    transition: .5s;
+}
+
+.last-child:hover {
+    color: white;
+    background-color: rgb(248, 171, 28);
+}
+
+.ul-hover li .fa-sort-down {
+    display: none;
+    position: absolute;
+    top: 13px;
+    left: 20px;
+}
+
+.ul-hover li a:hover {
+    color: rgb(255, 197, 89);
+}
+
+.ul-hover li:hover .fa-sort-down {
+    display: block;
+}
+
+.fa-envira {
+    color: rgb(255, 199, 96);
+}
+
+.fonts {
+    font-family: var(--roboto);
+}
+
+.drop {
+    font-family: var(--railway);
+    width: 100px;
+    background-color: #0E0E0E;
+    padding: 10px 25px;
+    color: rgb(255, 199, 96);
+    border-radius: 2px;
+    position: absolute;
+    left: -40px;
+}
+
+.header-body {
+    height: 100%;
+}
+
+.font-size {
+    font-size: 100px;
+}
+
+.width70 {
+    width: 60%;
+}
+
+
+/* .img-body {
+    background: url(image/220746.jpg) no-repeat;
+    background-size: cover;
+} */
+
+.main-body {
+    height: 100%;
+    background-color: var(--card-color);
+}
+
+.card-color {
+    background-color: var(--review-color);
+}
+
+.cards a {
+    width: 100%;
+    text-decoration: none;
+    border-right: 1px solid rgb(255, 199, 96);
+    color: aliceblue;
+    padding: 10px 20px;
+    transition: .5s;
+}
+
+.cards a:first-child {
+    background-color: rgb(255, 199, 96);
+    color: var(--review-color);
+}
+
+.cards a:hover {
+    background-color: rgb(255, 199, 96);
+    color: var(--review-color);
+}
+
+.cards a:nth-child(2) {
+    border-left: 1px solid rgb(255, 199, 96);
+}
+
+.cards a:nth-child(2):hover {
+    border-left: 1px solid white;
+}
+
+.cards a:last-child {
+    border: 0;
+}
+
+.cards2 {
+    background-color: #313655;
+}
+
+.cards3 {
+    background-color: #30385c;
+    border-radius: 0 !important;
+    height: 30rem !important;
+    border-bottom: solid rgb(146, 123, 80) 4px;
+    transition: .5s;
+}
+
+.cards3:hover {
+    box-shadow: 1px 1px 10px 0.2px #2f3a4b;
+    border-bottom: solid rgb(255, 197, 89);
+}
+
+.img-h {
+    height: 15rem !important;
+}
+
+.arrows button {
+    background-color: #1a1d31;
+    color: aliceblue;
+    padding: 5px 10px;
+    border: 1px solid rgb(255, 197, 89);
+}
+
+.arrows button:hover {
+    background-color: rgb(255, 197, 89);
+    color: #1a1d31;
+}
+
+.cart-anchor {
+    background-color: #30385c;
+    margin-top: 10px;
+    color: rgb(255, 197, 89);
+    border: 1px solid rgb(255, 197, 89);
+    padding: 8px 20px;
+    border-radius: 2px;
+    font-size: 14px;
+    transition: .5s;
+}
+
+.cart-arrow {
+    display: none;
+    transition: .5s;
+    color: #30385c;
+}
+
+.cart-anchor:hover {
+    background-color: rgb(255, 197, 89);
+    color: #30385c;
+}
+
+.cart-anchor:hover .cart-arrow {
+    display: block;
+}
